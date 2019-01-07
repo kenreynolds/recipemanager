@@ -1,0 +1,18 @@
+body {
+    background: url(../images/bg-pattern.png) repeat;
+}
+
+#ingredient-input::placeholder,
+#search-text::placeholder {
+    color: #ccc;
+}
+
+.hasIngredient {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.fa-times-circle:hover {
+    color: #ff7851;
+    cursor: pointer;
+}
